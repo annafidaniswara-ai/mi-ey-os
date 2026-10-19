@@ -1,97 +1,97 @@
 # MI-EY OS — Project Control Document
 
 **Document ID:** MI-EY-CTRL-001  
-**Version:** 1.0  
-**Status:** Initial baseline — owner review required  
+**Version:** 1.1  
+**Status:** Draft — awaiting Product Owner review  
 **Last reviewed:** 2026-10-19  
 **Repository:** https://github.com/annafidaniswara-ai/mi-ey-os  
 **Default branch:** main
 
-## 1. Purpose
+## 1. Purpose and scope
 
-This document is the operating control point for MI-EY OS. It records the project's purpose, source-of-truth rules, current verified status, governance, quality controls, and the next actionable work.
+This document is the operating control point for MI-EY OS. It records the project's purpose, ownership, source-of-truth rules, verified repository state, quality controls, and next actions.
 
-MI-EY OS is the Movement Intelligence Education Operating System: a child-centered movement-learning platform and knowledge architecture for ages 2–6. The first instructional framework focus is ages 2–4.
+MI-EY OS is intended as a child-centered movement-learning platform and knowledge architecture for ages 2–6. The first Developmental Competency Framework deliverable focuses on ages 2–4.
 
-## 2. Product owner and decision rights
+## 2. Roles and decision rights
 
-- **Product Owner:** project owner.
+- **Product Owner:** owns scope, priorities, approval, and release decisions.
 - **AI partner:** supports research, drafting, planning, analysis, and implementation where tools and permissions allow.
-- **Human approval required:** product scope changes; publication of sensitive or consequential content; changes to access/security settings; destructive actions; and release decisions.
-- **No false completion claims:** drafted content is not considered implemented until the artifact exists in the designated system and has been checked.
+- **Human approval required:** approval of product scope and architecture; release of operational content; access/security changes; destructive actions; and decisions affecting child-related data.
+- A GitHub commit proves that a file was saved; it does not mean the content has been approved.
 
 ## 3. Source-of-truth rules
 
-1. GitHub main is the source of truth for committed project documentation and code.
-2. A GitHub commit SHA and visible file path are evidence of a repository change.
-3. ChatGPT conversations are working context, not the canonical record of a decision unless the decision is recorded in the project documents.
-4. Use the latest approved document; label unapproved work as Draft or Proposed.
-5. Research claims must have traceable sources and a note describing limitations where material.
-6. Never store passwords, API tokens, private keys, or unnecessary personal/child-identifying data in the repository.
+1. GitHub main is the versioned source of truth for committed documentation and code.
+2. A file path and commit SHA are evidence of a repository change.
+3. ChatGPT conversations are working context; material decisions must be recorded in project documents.
+4. All new documents remain Draft until the Product Owner reviews them.
+5. Research claims need traceable sources; distinguish evidence, interpretation, and design decisions.
+6. Never commit passwords, API tokens, private keys, or unnecessary identifying information about children.
 
-## 4. Scope and planned modules
+## 4. Module boundaries (proposed)
 
-- docs/: vision, principles, architecture, decisions, project controls, and operating procedures.
-- framework/: Developmental Competency Framework, beginning with ages 2–4.
-- engine/: MI-EY Lesson Engine and session-generation rules.
-- library/: Movement Experience Library.
-- instructor/: Instructor Playbook and observation guidance.
-- curriculum/: curriculum structure and progression.
-- Additional technical implementation (application, APIs, database, authentication, and testing) is out of scope until the product architecture and requirements are reviewed and approved.
+- docs/: vision, principles, architecture, decision log, project control, and quality procedures.
+- framework/: competency definitions and observable indicators, starting with ages 2–4.
+- engine/: proposed rules for assembling lesson plans from goals, constraints, and experiences.
+- library/: reusable movement experiences and their safety/adaptation guidance.
+- instructor/: facilitation, observation, adaptation, and reflection guidance.
+- curriculum/: sequencing and progression across the intended age range.
 
-These are planned modules, not a claim that these directories or software components already exist.
+These are documented content boundaries. They do not imply that an application, database, API, or automated pipeline exists.
 
-## 5. Current verified repository baseline
+## 5. Verified repository baseline
 
 Checked on 2026-10-19 through the connected GitHub integration:
 
 - Repository: annafidaniswara-ai/mi-ey-os
 - Visibility: public
 - Default branch: main
-- Repository access reports push permission.
-- Root contents currently show only README.md.
-- README.md describes MI-EY OS as a child-centered movement learning platform for ages 2–6 and marks the project status as Foundation phase.
-- Current README blob SHA: 8c40f1855e5d17d96d0b1d724a60781a42019ed0.
-
-**Important reconciliation:** the user's Phase 1 checklist is marked complete for their ChatGPT workspace and working documents. However, at the time of this live repository check, the remote GitHub root contains only README.md. The repository folder structure must therefore be treated as not yet present on remote main until verified after commits.
+- Root includes README.md, docs/, framework/, engine/, library/, instructor/, and curriculum/.
+- The docs/ directory contains project control, action plan, vision, principles, architecture, decision log, content model, quality checklist, and documentation index.
+- Each module directory currently has an entry-point README.md.
+- Files were re-read from GitHub after creation. This is a documentation foundation, not a running software product.
 
 ## 6. Delivery workflow
 
 For each meaningful change:
 
-1. State the objective and acceptance criteria.
-2. Inspect the current file(s) and repository state before editing.
+1. Define the objective and acceptance criteria.
+2. Inspect current files and repository state before editing.
 3. Draft the smallest useful change.
-4. Check links, terminology, completeness, source quality, and safety.
-5. Apply the change only through an available authorized tool or an explicitly user-operated step.
-6. Verify the resulting file path and commit SHA.
-7. Record the result, unresolved issues, and next action in the project log.
+4. Check completeness, terminology, source quality, privacy, and safety.
+5. Apply the change only through an authorized tool or an explicitly user-operated step.
+6. Re-read the resulting file from GitHub and record the path and commit SHA.
+7. Record unresolved issues and the next action.
 
-## 7. Quality gates
+## 7. Quality and safety gates
 
-- **Content:** clear purpose, defined terms, age-appropriate language, and no unsupported developmental claims.
-- **Evidence:** credible sources for scientific claims; distinguish evidence, interpretation, and design choice.
-- **Safety:** child-centered, inclusive, non-diagnostic, and does not replace qualified clinical assessment.
-- **Privacy:** use fictional/anonymous examples during early development.
-- **Versioning:** each approved change is traceable; avoid broad, unrelated commits.
-- **Implementation:** no module is marked complete without acceptance checks and a review record.
+- **Content:** clear purpose, defined terms, and age-appropriate language.
+- **Evidence:** cite credible sources for scientific claims; disclose material limitations.
+- **Safety:** child-centered, inclusive, non-diagnostic, and not a substitute for qualified assessment.
+- **Privacy:** use synthetic or anonymized examples during design and testing.
+- **Versioning:** keep changes traceable and avoid unrelated edits in one change.
+- **Approval:** no draft becomes an approved requirement without explicit human review.
+- **Implementation:** do not mark a module complete without acceptance checks and a review record.
 
-## 8. Initial success criteria
+## 8. Success criteria for the documentation foundation
 
-Phase 1 foundation is accepted when:
-- project control and action-plan documents exist in the repository;
-- the intended directory structure is documented and then verified on GitHub;
-- project status and decisions can be updated consistently;
-- each next task has an owner, priority, deliverable, and acceptance criteria;
-- no credentials or unnecessary personal data are committed.
+- Project-control and action-plan documents exist on the remote branch.
+- The intended directory structure is visible on GitHub.
+- Module boundaries and document statuses are explicit.
+- Tasks have priorities, deliverables, and acceptance criteria.
+- No credentials or unnecessary child-identifying data are committed.
+- The Product Owner has reviewed and accepted the baseline.
 
-## 9. Open decisions
+## 9. Open review decisions
 
-1. Confirm the canonical name and scope: MI-EY OS platform for ages 2–6, with first framework delivery for ages 2–4.
-2. Approve the proposed directory structure.
-3. Decide whether the next deliverable is repository documentation only or also a software architecture specification.
-4. Approve evidence and citation standards for the Developmental Competency Framework.
+1. Confirm the primary user and first real-world use case.
+2. Review the proposed content model for competencies and movement experiences.
+3. Review evidence/citation and activity safety-review standards.
+4. Decide which content, if any, should later be private rather than public.
+5. Approve the architecture and documentation foundation before software implementation.
 
 ## 10. Change log
 
-- 2026-10-19 — Created initial project control baseline and documented live repository status.
+- 2026-10-19 — Version 1.0 created as initial project control baseline.
+- 2026-10-19 — Version 1.1 reconciles the baseline with the verified GitHub tree and documents the content model and quality-review gate.
