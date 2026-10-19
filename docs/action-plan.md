@@ -1,7 +1,7 @@
 # MI-EY OS — Phase 1 Action Plan
 
 **Plan ID:** MI-EY-PLAN-001  
-**Version:** 1.1  
+**Version:** 1.2  
 **Status:** Draft — awaiting Product Owner review  
 **Updated:** 2026-10-19  
 **Owner:** Product Owner
@@ -18,19 +18,19 @@ The intended platform scope is ages 2–6. The first Developmental Competency Fr
 
 | ID | Priority | Task | Deliverable | Status |
 |---|---|---|---|---|
-| P1-01 | P0 | Project control | docs/project-control.md | Created; reconciliation pending |
-| P1-02 | P0 | Action plan | docs/action-plan.md | Created; this update records progress |
-| P1-03 | P0 | Documentation skeleton | docs/README.md, vision.md, principles.md, architecture.md | Created; review pending |
-| P1-04 | P1 | Module entry points | README files in framework, engine, library, instructor, curriculum | Created; review pending |
-| P1-05 | P1 | Decision log | docs/decision-log.md | Created; proposed content model recorded |
-| P1-06 | P0 | Verify remote state | GitHub paths and commit metadata | Verify after current updates |
+| P1-01 | P0 | Project control | docs/project-control.md | Updated and verified; owner review pending |
+| P1-02 | P0 | Action plan | docs/action-plan.md | Updated and verified; owner review pending |
+| P1-03 | P0 | Documentation skeleton | docs/README.md, vision.md, principles.md, architecture.md | Present; architecture aligned to content model; review pending |
+| P1-04 | P1 | Module entry points | README files in framework, engine, library, instructor, curriculum | Present; review pending |
+| P1-05 | P1 | Decision log | docs/decision-log.md | Proposed content-model decision recorded; review pending |
+| P1-06 | P0 | Verify remote state | GitHub paths and commit metadata | Verification in progress for this update |
 | P1-07 | P0 | Product Owner review | Review checklist and unresolved-decision list | Awaiting review |
 | P1-08 | P1 | Content model | docs/content-model.md | Created; Draft, review pending |
 | P1-09 | P1 | Quality review checklist | docs/quality-review-checklist.md | Created; Draft, review pending |
 
 ## Execution order
 
-1. Reconcile project-control and action-plan status with the actual remote repository.
+1. Reconcile project-control and action-plan status with the remote repository.
 2. Document the proposed content model for competencies and movement experiences.
 3. Add a repeatable quality-review checklist for evidence, safety, inclusion, privacy, and approval status.
 4. Re-read changed files from GitHub and verify paths and commit SHAs.
