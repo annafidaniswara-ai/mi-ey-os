@@ -4,30 +4,30 @@
 
 ## 1. Architectural approach
 
-Begin with a documented knowledge architecture before committing to a specific application stack. The repository is the versioned home for approved specifications, content models, and later implementation artifacts. This document does not assert that an application, database, API, or authentication system already exists.
+Begin with a documented knowledge architecture before committing to a specific application stack. The repository is the versioned home for specifications, content models, and later implementation artifacts. This document does not assert that an application, database, API, or authentication system already exists.
 
 ## 2. Proposed content layers
 
-- **Governance (`docs/`):** vision, principles, decisions, architecture, quality and operating procedures.
-- **Competency model (`framework/`):** competency definitions, developmental considerations, observable indicators, and evidence notes. First focus: ages 2–4.
-- **Lesson generation (`engine/`):** rules connecting goals, constraints, activities, adaptations, and session structure.
-- **Experience catalog (`library/`):** reusable movement experiences with setup, steps, adaptations, safety, and observation cues.
-- **Instructor support (`instructor/`):** facilitation, observation, adaptation, and reflection guidance.
-- **Curriculum (`curriculum/`):** sequencing and progression across experiences and age bands.
+- **Governance (docs/):** vision, principles, decisions, project control, and quality procedures.
+- **Competency model (framework/):** competency definitions, developmental considerations, observable indicators, and evidence notes. First focus: ages 2–4.
+- **Lesson generation (engine/):** proposed rules connecting goals, constraints, activities, adaptations, and session structure.
+- **Experience catalog (library/):** reusable movement experiences with setup, steps, adaptations, safety, and observation cues.
+- **Instructor support (instructor/):** facilitation, observation, adaptation, and reflection guidance.
+- **Curriculum (curriculum/):** sequencing and progression across experiences and age bands.
 
 ## 3. Conceptual flow
 
-Program goals → competency framework → lesson intent → movement experience selection/adaptation → instructor delivery → observation/reflection → reviewed improvement.
+Program goals → competencies → movement experiences → lesson plan → instructor delivery → observations/reflection → reviewed improvement.
 
-The flow is a proposed content model, not an implemented software pipeline.
+Curriculum organizes and sequences competencies and lessons. The proposed field-level model is documented in [content-model.md](content-model.md); the repeatable quality gate is in [quality-review-checklist.md](quality-review-checklist.md).
 
-## 4. Suggested record fields
+This is a proposed content workflow, not an implemented software pipeline.
 
-A movement experience may eventually include: unique ID, title, intended competency, suggested age/readiness, objectives, duration, space/equipment, setup, instructions, adaptations, safety considerations, observation cues, source/evidence notes, version, review status, and reviewer.
+## 4. Proposed records
 
-A competency may eventually include: ID, name, definition, domain, age-band context, observable indicators, examples/non-examples, adaptation notes, evidence references, and review status.
+The initial conceptual model separates four record types: competency, movement experience, lesson, and curriculum. Each uses stable IDs and includes status, version, and review ownership. Relationships should be explicit rather than duplicating definitions across documents.
 
-These fields are proposals and should be validated with real instructor workflows before being treated as final schemas.
+The field lists are proposals and should be validated with instructors before becoming final schemas.
 
 ## 5. Technical decisions deferred
 
@@ -38,11 +38,11 @@ Do not choose frameworks, hosting, database, authentication, analytics, or AI AP
 - Public repository content must contain no credentials or identifiable child records.
 - Any future private or child-related data needs a separate data-flow and access review before implementation.
 - Generated content must be reviewed for developmental appropriateness, inclusion, safety, and evidence quality.
-- Maintain explicit Draft / In review / Approved status.
+- Maintain explicit Draft / In review / Approved status. A commit does not equal approval.
 
 ## 7. Acceptance questions
 
 - Do the proposed layers reflect the actual workflow of instructors?
-- Should competency content be maintained separately from curriculum sequencing?
+- Are the four proposed record types sufficient and practical?
 - Which content needs to be public, private, or restricted?
 - What review roles and release gates are required?
