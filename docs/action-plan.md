@@ -1,52 +1,59 @@
 # MI-EY OS — Phase 1 Action Plan
 
 **Plan ID:** MI-EY-PLAN-001  
-**Version:** 1.0  
-**Status:** Proposed execution plan  
-**Created:** 2026-10-19  
+**Version:** 1.1  
+**Status:** Draft — awaiting Product Owner review  
+**Updated:** 2026-10-19  
 **Owner:** Product Owner
 
 ## Goal
 
-Establish a reliable, auditable documentation foundation for MI-EY OS before expanding into instructional framework design or software implementation.
+Establish a reliable, auditable documentation foundation before expanding into detailed framework content or software implementation.
 
-## Current state
+## Confirmed direction
 
-A live GitHub check on 2026-10-19 confirmed that the public repository annafidaniswara-ai/mi-ey-os uses main as its default branch and currently has only README.md at the root. The connected GitHub integration reports push permission. Do not assume planned folders exist until they are visible on GitHub.
+The intended platform scope is ages 2–6. The first Developmental Competency Framework deliverable focuses on ages 2–4. New documents remain Draft until reviewed by the Product Owner.
 
 ## Work items
 
-| ID | Priority | Task | Deliverable | Acceptance criteria | Status |
-|---|---|---|---|---|---|
-| P1-01 | P0 | Establish project control | docs/project-control.md | Purpose, ownership, source-of-truth, baseline, quality gates, and open decisions are recorded | In progress |
-| P1-02 | P0 | Establish action plan | docs/action-plan.md | Tasks have priorities, outputs, and acceptance criteria | In progress |
-| P1-03 | P0 | Define repository documentation skeleton | docs/README.md, docs/vision.md, docs/principles.md, docs/architecture.md | Each document has a clear purpose and is explicitly marked draft until approved | Not started |
-| P1-04 | P1 | Add module entry points | framework/README.md, engine/README.md, curriculum/README.md, instructor/README.md, library/README.md | Each entry point describes scope, planned inputs/outputs, and current status | Not started |
-| P1-05 | P1 | Record decision log | docs/decision-log.md | Decisions include ID, date, status, rationale, owner, and impact | Not started |
-| P1-06 | P1 | Verify remote state | GitHub root listing and commit metadata | All expected files are visible on main; each change has a verifiable commit SHA | Not started |
-| P1-07 | P1 | Review Phase 1 | Review checklist and unresolved-decision list | Product Owner can approve foundation or identify required changes | Not started |
+| ID | Priority | Task | Deliverable | Status |
+|---|---|---|---|---|
+| P1-01 | P0 | Project control | docs/project-control.md | Created; reconciliation pending |
+| P1-02 | P0 | Action plan | docs/action-plan.md | Created; this update records progress |
+| P1-03 | P0 | Documentation skeleton | docs/README.md, vision.md, principles.md, architecture.md | Created; review pending |
+| P1-04 | P1 | Module entry points | README files in framework, engine, library, instructor, curriculum | Created; review pending |
+| P1-05 | P1 | Decision log | docs/decision-log.md | Created; proposed content model recorded |
+| P1-06 | P0 | Verify remote state | GitHub paths and commit metadata | Verify after current updates |
+| P1-07 | P0 | Product Owner review | Review checklist and unresolved-decision list | Awaiting review |
+| P1-08 | P1 | Content model | docs/content-model.md | Created; Draft, review pending |
+| P1-09 | P1 | Quality review checklist | docs/quality-review-checklist.md | Created; Draft, review pending |
 
-## Recommended execution order
+## Execution order
 
-1. Create the project control and action-plan documents.
-2. Re-read both files from GitHub and verify the resulting commits.
-3. Create the documentation skeleton and module entry points in small, reviewable changes.
-4. Add the decision log and capture decisions without silently converting proposals into approved requirements.
-5. Review the complete remote tree and README.
-6. Ask the Product Owner to approve the baseline before writing detailed product architecture or implementation code.
+1. Reconcile project-control and action-plan status with the actual remote repository.
+2. Document the proposed content model for competencies and movement experiences.
+3. Add a repeatable quality-review checklist for evidence, safety, inclusion, privacy, and approval status.
+4. Re-read changed files from GitHub and verify paths and commit SHAs.
+5. Ask the Product Owner to review architecture, content model, and quality gates.
+6. Only after review, begin the detailed ages 2–4 Developmental Competency Framework.
 
-## Definition of done
+## Acceptance criteria
 
-Phase 1 is done when all planned foundation files exist on the remote default branch, their contents have been reviewed, no secrets or unnecessary child-identifying data are present, and the Product Owner has accepted the scope and open decisions.
+- Foundation files exist on the remote default branch and can be re-read.
+- Documents remain Draft until reviewed.
+- Proposed schemas are labeled as proposals, not final technical contracts.
+- Child safety, inclusion, evidence quality, privacy, and human review are addressed.
+- No credentials or unnecessary child-identifying data are committed.
+- The Product Owner can clearly identify what requires approval.
 
 ## Risks and mitigations
 
-- **Assuming local progress equals remote progress:** verify GitHub paths and commit SHAs after each write.
-- **Scope creep into application code too early:** finish and approve documentation architecture first.
-- **Unverified research claims:** keep claims sourced and label gaps.
-- **Sensitive data exposure:** use synthetic or anonymized examples; do not commit credentials.
-- **Unapproved decisions becoming requirements:** label proposals and obtain owner approval.
+- **Remote state drift:** re-check GitHub after every write.
+- **Premature technical commitment:** defer stack, database, API, and authentication choices until requirements are approved.
+- **Unsupported developmental claims:** require traceable evidence and qualified review.
+- **Draft mistaken for policy:** preserve explicit status labels.
+- **Sensitive data exposure:** use synthetic examples and minimize collection.
 
-## Next action
+## Definition of done
 
-Complete P1-01 and P1-02, verify them on GitHub, then proceed with P1-03. The architecture document should remain a draft until the Product Owner approves the scope and module boundaries.
+The documentation foundation is ready for Product Owner review when all baseline files exist remotely, the content model and quality checklist are present, remote state is verified, and unresolved decisions are visible. It is not formally approved until the Product Owner says so.
