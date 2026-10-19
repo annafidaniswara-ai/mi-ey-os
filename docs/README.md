@@ -13,6 +13,7 @@ This directory contains governance and design documents for MI-EY OS.
 - [Architecture](architecture.md) — proposed content and software boundaries.
 - [Content model](content-model.md) — proposed fields and relationships for competencies, lessons, and movement experiences.
 - [Quality review checklist](quality-review-checklist.md) — repeatable review for evidence, safety, inclusion, privacy, and approval.
+- [Design validation example](design-validation-example.md) — fictional, draft example tracing competencies to a movement experience and lesson.
 - [Decision log](decision-log.md) — decisions, proposals, and approvals.
 
 ## Document status convention
