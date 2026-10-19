@@ -2,15 +2,17 @@
 
 **Status: Draft — awaiting Product Owner review.**
 
-This directory contains the governance and design documents for MI-EY OS.
+This directory contains governance and design documents for MI-EY OS.
 
 ## Documents
 
-- [Project control](project-control.md) — purpose, roles, source-of-truth rules, quality gates, and verified baseline.
-- [Action plan](action-plan.md) — prioritized tasks and acceptance criteria.
+- [Project control](project-control.md) — purpose, roles, source-of-truth rules, repository baseline, and quality gates.
+- [Action plan](action-plan.md) — prioritized work, outputs, and acceptance criteria.
 - [Vision](vision.md) — intended outcomes and users.
 - [Principles](principles.md) — design and safety principles.
-- [Architecture](architecture.md) — proposed knowledge and software boundaries.
+- [Architecture](architecture.md) — proposed content and software boundaries.
+- [Content model](content-model.md) — proposed fields and relationships for competencies, lessons, and movement experiences.
+- [Quality review checklist](quality-review-checklist.md) — repeatable review for evidence, safety, inclusion, privacy, and approval.
 - [Decision log](decision-log.md) — decisions, proposals, and approvals.
 
 ## Document status convention
@@ -20,4 +22,4 @@ This directory contains the governance and design documents for MI-EY OS.
 - **Approved:** explicitly accepted by the Product Owner.
 - **Superseded:** replaced by a newer approved version.
 
-No document becomes approved merely because it has been committed to GitHub.
+A GitHub commit does not automatically approve a document.
