@@ -167,13 +167,17 @@ This is a proposed documentation layout only. Create the additional files after 
 
 ## 9. Review gates before this becomes operational
 
-- [✓ ] Product Owner confirms the three core domains plus integrative competencies.
-- [✓ ] Early-childhood movement educator reviews definitions and indicator language.
-- [ ✓] Qualified reviewer checks safety notes and adaptation options.
-- [✓ ] Research claims are checked against the cited primary sources and reviews.
-- [ ✓] Fields are tested with instructors using fictional scenarios only.
-- [✓ ] Any formal assessment use is excluded unless separately designed and validated by qualified specialists.
-- [✓ ] Status remains Draft until the Product Owner explicitly approves it.
+Checklist status reflects work actually completed; a checked item is not a plan or assumption.
+
+- [x] Product Owner confirms the three core domains plus integrative competencies.
+- [ ] Early-childhood movement educator reviews definitions and indicator language. **Pending — record reviewer and feedback when completed.**
+- [ ] Qualified reviewer checks safety notes and adaptation options. **Pending — record reviewer and feedback when completed.**
+- [ ] Research claims are checked against the cited primary sources and reviews. **Pending — verify each source and the exact claim it supports.**
+- [ ] Fields are tested with instructors using fictional scenarios only. **Pending — record the test and findings when completed.**
+- [x] Any formal assessment use is excluded unless separately designed and validated by qualified specialists.
+- [x] Status remains Draft until the Product Owner explicitly approves it.
+
+**Review integrity note:** Only the Product Owner confirmation and the stated scope/status safeguards are marked complete here. Specialist review, research verification, and instructor testing remain unchecked until there is evidence they have actually occurred. Do not treat this checklist as evidence of external review.
 
 ## 10. Current decision
 
