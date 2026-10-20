@@ -45,3 +45,14 @@ Use this log for material product, content, governance, and technical decisions.
 - **Rationale:** Supports reuse and traceability without prematurely choosing a database or application stack.
 - **Impact:** Framework, engine, library, curriculum, and future technical architecture.
 - **Review trigger:** Instructor testing shows the model is too complex or does not support actual planning workflows.
+
+### DEC-004 — Product Owner review of ages 2–4 framework draft
+- **Date:** 2026-10-20
+- **Status:** Agreement recorded; educator and specialist review pending
+- **Decision owner:** Product Owner
+- **Context:** The Product Owner reviewed the proposed Developmental Competency Framework structure and competency dictionary.
+- **Decision:** Proceed with the proposed structure for the next review stage: three core domains (locomotor, stability, object manipulation) plus integrative competencies; use observable indicators and flexible progression options rather than universal age deadlines.
+- **Rationale:** This records the user's explicit agreement in the project conversation and enables the next validation activity.
+- **Impact:** Framework structure, competency dictionary, review matrix, and instructor walkthroughs.
+- **Review trigger:** Qualified educator, safety/inclusion, or research review identifies material issues; the Product Owner may revise the direction.
+- **Approval boundary:** This decision confirms agreement with the proposed structure only. It does not mark the framework or dictionary Approved, and does not establish validation for operational or assessment use.
