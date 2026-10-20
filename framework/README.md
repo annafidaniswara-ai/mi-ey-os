@@ -10,6 +10,7 @@ Define movement-learning competencies and observable indicators for MI-EY OS. Th
 
 - [Developmental Competency Framework 2–4 — structure](developmental-competency-framework-2-4.md): proposed three core domains, integrative competencies, and framework design principles.
 - [Competency Dictionary 2–4](competency-dictionary-2-4.md): detailed draft records with observable examples, non-examples, flexible progression options, adaptations, safety notes, cross-domain links, interpretation limits, and review criteria.
+- [Competency Review Matrix 2–4](competency-review-matrix-2-4.md): draft reviewer rubric and tracking matrix; educator, safety/inclusion, and research review remain pending.
 
 ## Planned outputs
 
