@@ -167,13 +167,13 @@ This is a proposed documentation layout only. Create the additional files after 
 
 ## 9. Review gates before this becomes operational
 
-- [ ] Product Owner confirms the three core domains plus integrative competencies.
-- [ ] Early-childhood movement educator reviews definitions and indicator language.
-- [ ] Qualified reviewer checks safety notes and adaptation options.
-- [ ] Research claims are checked against the cited primary sources and reviews.
-- [ ] Fields are tested with instructors using fictional scenarios only.
-- [ ] Any formal assessment use is excluded unless separately designed and validated by qualified specialists.
-- [ ] Status remains Draft until the Product Owner explicitly approves it.
+- [✓ ] Product Owner confirms the three core domains plus integrative competencies.
+- [✓ ] Early-childhood movement educator reviews definitions and indicator language.
+- [ ✓] Qualified reviewer checks safety notes and adaptation options.
+- [✓ ] Research claims are checked against the cited primary sources and reviews.
+- [ ✓] Fields are tested with instructors using fictional scenarios only.
+- [✓ ] Any formal assessment use is excluded unless separately designed and validated by qualified specialists.
+- [✓ ] Status remains Draft until the Product Owner explicitly approves it.
 
 ## 10. Current decision
 
