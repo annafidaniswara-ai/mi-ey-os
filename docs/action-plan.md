@@ -27,7 +27,7 @@ The intended platform scope is ages 2–6. The first Developmental Competency Fr
 | P1-07 | P0 | Product Owner review | Review checklist and unresolved-decision list | Awaiting review |
 | P1-08 | P1 | Content model | docs/content-model.md | Draft; review pending |
 | P1-09 | P1 | Quality review checklist | docs/quality-review-checklist.md | Draft; review pending |
-| P1-10 | P1 | Validate model with fictional scenario | docs/design-validation-example.md | Created; Draft; educator review pending |
+| P1-10 | P1 | Validate model with fictional scenario | docs/design-validation-example.md | Created; Draft; educator review pending |\n| P1-11 | P1 | Create competency review matrix | framework/competency-review-matrix-2-4.md | Created; Draft; qualified review pending |\n| P1-12 | P1 | Create fictional instructor walkthroughs | framework/instructor-walkthroughs-2-4.md | Created; Draft; desk-based only; not field-tested |
 
 ## Execution order
 
